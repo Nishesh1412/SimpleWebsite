@@ -1,0 +1,61 @@
+@font-face {
+        font-family: 'firstfont';
+        src: url('fonts/RemachineScript.ttf');
+}
+
+.nav a {
+        color: #5a5a5a;
+        font-size: 11px;
+        font-weight: bold;
+        padding:14px 10px;
+        text-transform: uppercase;
+}
+
+.nav li {
+        display: inline;
+}
+
+.jumbotron {
+        background-image: url('images/cover.jpg');
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.jumbotron .container {
+        position: relative;
+        top: 100px;
+}
+
+.jumbotron h1 {
+        color: #fff;
+        font-size: 48px;
+        font-family: firstfont; 
+        font-weight: bold;
+}
+
+.jumbotron a {
+        position: relative;
+        color: #fff;
+        font-family: firstfont;
+        font-size: 25px;
+        text-transform: uppercase:
+}
+
+.jumbotron p {
+        position: relative;
+        color: #fff;
+        font-family: firstfont;
+        font-size: 28px;
+        font-style: italic; 
+}
+
+#image1 h3 {
+        font-size: 30px;
+        font-family: firstfont;
+        position: relative; 
+        font-style: normal;
+        text-align: center;      
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+}
